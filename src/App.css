@@ -550,6 +550,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 80px;
   margin-top: -122px;
 }
+
 .newsletter-bx h3 {
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -611,4 +612,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+@media (max-width: 34em) {
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 4px 0;
+  }
+
+  .social-icon {
+    margin: 5px 0 10px 0;
+  }
+
+  .project .nav.nav-pills {
+    width: 90%;
+  }
+
+  .project p {
+    width: 100%;
+  }
+
+  .newsletter-bx {
+    padding: 20px 10px 50px 10px;
+  }
+
+  .newsletter-bx h3 {
+    text-align: center;
+  }
+
+  .newsletter-bx {
+    border-radius: 40px;
+  }
+
+  .newsletter-bx .new-email-bx button {
+    padding: 15px 40px;
+  }
+
+  .contact img {
+    width: 100%;
+  }
 }

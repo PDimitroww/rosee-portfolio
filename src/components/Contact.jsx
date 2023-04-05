@@ -51,7 +51,7 @@ export const Contact = () => {
     <section className="contact" id="contact">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
+          <Col size={12} md={6} sm={12}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <img
